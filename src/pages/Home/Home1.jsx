@@ -1,12 +1,8 @@
 import React from 'react';
-import image1 from '../../assets/image1.jpg';
 
 const HeroOne = () => {
   return (
-    <div
-      className="relative h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url(${image1})` }}
-    >
+    <div className="bg-gray-900 min-h-screen text-white p-8 relative">
       <div className="absolute inset-0 bg-black/60"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold drop-shadow-xl">
